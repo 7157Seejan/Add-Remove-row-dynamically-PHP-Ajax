@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.form-control{
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+    transition: border .5s linear;
+}
+
+.form-control:focus{
+    border: 2px solid rgb(32, 32, 173) !important;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.btn-primary{
+    background-color: rgb(32, 32, 173);
+}
+
+.btn-danger{
+    background-color: rgb(224, 56, 26);
+}
